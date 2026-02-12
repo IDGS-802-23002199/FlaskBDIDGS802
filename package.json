@@ -1,0 +1,23 @@
+{
+  "name": "flaskbdidgs802",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDGS-802-23002199/FlaskBDIDGS802.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDGS-802-23002199/FlaskBDIDGS802/issues"
+  },
+  "homepage": "https://github.com/IDGS-802-23002199/FlaskBDIDGS802#readme",
+  "dependencies": {
+    "flowbite": "^4.0.1"
+  }
+}

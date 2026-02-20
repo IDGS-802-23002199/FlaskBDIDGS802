@@ -6,7 +6,22 @@
     <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
 
     <div class="relative z-0">
+        {{macros.camposNuevos(form.id, class="bg-neutral-secondary-medium border
+        border-default-medium text-heading text-sm rounded-base focus:ring-brand 
+        focus:border-brand block w-full px-2.5 py-2 shadow-xs placeholder:text-body")}}
+    </div>
+    <div class="relative z-0">
         {{macros.camposNuevos(form.nombre, class="bg-neutral-secondary-medium border
+        border-default-medium text-heading text-sm rounded-base focus:ring-brand 
+        focus:border-brand block w-full px-2.5 py-2 shadow-xs placeholder:text-body")}}
+    </div>
+    <div class="relative z-0">
+        {{macros.camposNuevos(form.apaterno, class="bg-neutral-secondary-medium border
+        border-default-medium text-heading text-sm rounded-base focus:ring-brand 
+        focus:border-brand block w-full px-2.5 py-2 shadow-xs placeholder:text-body")}}
+    </div>
+    <div class="relative z-0">
+        {{macros.camposNuevos(form.email, class="bg-neutral-secondary-medium border
         border-default-medium text-heading text-sm rounded-base focus:ring-brand 
         focus:border-brand block w-full px-2.5 py-2 shadow-xs placeholder:text-body")}}
     </div>
